@@ -31,6 +31,12 @@
   background-color: white;
 }
 
+#presentation {
+  background-color: white;
+  color: #0C0C0C;
+  border:3px solid black;
+}
+
 .video-responsive {
     height: 0;
     overflow: hidden;
