@@ -1,0 +1,60 @@
+$blk: #0C0C0C;
+$wht: #f0f2f5;
+
+.jumbotron{
+	background-color: $blk;
+	color: $wht;
+	margin-top: 50px;
+}
+
+.btn {
+	margin-top: 10px; 
+	color: $blk;
+	background-color: gray;
+}
+
+.row-top{
+	color: $blk;
+	margin-bottom: 20px;
+}
+
+.footer{
+	padding: 10px 10px 0 10px;
+	background-color: black;
+	color: $wht;
+	margin-bottom: 0px;
+	margin-top: 50px
+}
+
+.container{
+	padding-top: 30px;
+}
+
+#main-img {
+  background-color: $wht;
+}
+
+#presentation {
+  background-color: $wht;
+  color: $blk;
+  border:3px solid black;
+}
+
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    }
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+
+@media screen and (max-width: 800px) {
+  body { font-size: 20px }
+}
